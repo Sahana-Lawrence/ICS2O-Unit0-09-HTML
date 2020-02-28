@@ -1,0 +1,22 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  font-family: verdana;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: courier;
+  color: teal;
+  text-align: center;
+  font-size: 20px;
+}
+
+q {
+  font-family: arial;
+  color: tomato;
+  font-size: 20px;
+}
