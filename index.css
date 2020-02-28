@@ -1,5 +1,7 @@
 body {
-  background-color: lightblue;
+  background-image: url('./images/blue.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -19,4 +21,27 @@ q {
   font-family: arial;
   color: tomato;
   font-size: 20px;
+}
+
+#customers {
+  font-family: "Trebuchet MS";
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+#customers th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: tomato;
+  color: white;
+}
+
+td {
+  color: green;
 }
